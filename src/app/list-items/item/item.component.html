@@ -1,0 +1,15 @@
+<mat-card class="item-card">
+  <mat-card-header>
+    <mat-card-title>{{item.title}}</mat-card-title>
+    <mat-card-subtitle>{{item.price}}</mat-card-subtitle>
+  </mat-card-header>
+  <img mat-card-image [src]="item.imageSrc">
+  <mat-card-content>
+    <p>{{item.descripion}}</p>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-raised-button>Add to bag</button>
+    <button mat-raised-button (click)="openDialog()">Details</button>
+  </mat-card-actions>
+</mat-card>
+<router-outlet></router-outlet>

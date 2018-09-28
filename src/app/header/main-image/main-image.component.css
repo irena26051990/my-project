@@ -1,0 +1,6 @@
+.image {
+    background: url(assets/people.jpg) no-repeat center center fixed; 
+    width: 100%;
+    margin: 0px auto;
+    height: 700px;
+}

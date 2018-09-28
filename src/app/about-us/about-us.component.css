@@ -1,0 +1,66 @@
+h2{
+   text-align: center;
+   margin-top: 10px;
+}
+.imageOne{
+    display: block;
+  margin: 0 auto;
+
+}
+p{
+    text-align: center;
+    font-size: 14pt;
+}
+.aboutCenter{
+    background: rgba(0,0,0,0.2);
+    width: 31%;
+    margin:10px;
+    float: left;
+}
+.aboutCenterSecond{
+    background: rgba(0,0,0,0.2);
+    width: 31%;
+    margin:10px;
+    float: left;
+}
+
+.imageTwo{
+    /* display: block; */
+  margin: 0 auto;
+padding: 10px;
+}
+.imageThree{
+        /* display: block; */
+      margin: 0 auto;
+padding: 10px;
+}
+.centralImgs{
+    display: flex;
+    justify-content: center;
+}
+
+h4{
+    text-align: center;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+ 
+}
+.firstColumn{
+    margin-left:50px;
+   padding: 10px; 
+ 
+   height: 520px;
+}
+.secondColumn{
+    padding: 10px;
+    
+}
+
+ul li{
+    padding: 15px;
+    font-size:14pt;
+}

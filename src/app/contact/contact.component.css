@@ -1,0 +1,68 @@
+button {
+    color: white;
+
+    border: none;
+    box-shadow: 1px 1px 1px grey;
+    color: gray;
+    height: 40px;
+}
+
+form input, form textarea {
+
+  box-sizing: border-box;
+	margin-bottom: 10px; 
+	background: rgba(0,0,0,0.3);
+	padding: 10px;
+	font-size: 13px;
+	color: #fff;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+	border: 2px solid rgba(0,0,0,0.3);
+  
+  display: block;
+}
+form input::placeholder, form textarea::placeholder {
+  color: #b7b7b7;
+}
+
+
+
+/*  Login Form */
+form#login_form {
+  width:250px;
+  height:250px;
+  text-align:center;
+}
+form#login_form input {
+    width: 100%;
+}
+form#login_form button#login_btn {
+    width: 100%;
+}
+
+/*  Contact form*/
+h1#welcome_msg {
+    background: rgba(0,0,0,0.6);
+    margin: 0;
+    padding: 5px;
+}
+form#contact_form {
+  padding: 20px;
+  width: 300px;
+  height: 400px;
+  text-align:center;
+}
+form#contact_form input {
+  width: 100%;
+}
+form#contact_form textarea#contact_message {
+  width: 100%;
+  height: auto;
+}
+form#contact_form button#contact_btn {
+    width: 100%;
+}
+form{
+    float: left;
+    margin-left: 5%;
+    margin-right: 20%;
+}
